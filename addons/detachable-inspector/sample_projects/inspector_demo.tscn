@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://ctlwhe8am6mx0"]
+
+[ext_resource type="Script" uid="uid://bev4y7im8c8ns" path="res://addons/detachable-inspector/sample_projects/jt_inspector_demo.gd" id="1_demo"]
+
+[node name="InspectorDemo" type="Node2D" unique_id=1529297273]
+position = Vector2(180, 300)
+script = ExtResource("1_demo")
+
+[node name="Instructions" type="Label" parent="." unique_id=1525222798]
+offset_left = -156.0
+offset_top = -240.0
+offset_right = 156.0
+offset_bottom = -120.0
+theme_override_font_sizes/font_size = 20
+text = "Detached Inspector Demo
+
+Select InspectorDemo and edit its Preview properties."
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="ReferenceTarget" type="Marker2D" parent="." unique_id=1714905458]
+position = Vector2(0, 100)
+
+[node name="ButtonHint" type="Label" parent="." unique_id=1031847109]
+offset_left = -156.0
+offset_top = 140.0
+offset_right = 156.0
+offset_bottom = 260.0
+text = "Editor Actions:
+Print Values writes to Output.
+Refresh Preview redraws the shape.
+
+Buttons are available in the editor Inspector."
+horizontal_alignment = 1
+autowrap_mode = 2

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1254 1254" fill="none">
+	<title>Detachable Inspector</title>
+	<desc>Two overlapping dark inspector windows with cyan controls and a blue magnifying glass on the left. Transparent background.</desc>
+	<defs>
+		<clipPath id="main-window-clip">
+			<rect x="187" y="218" width="881" height="660" rx="27"/>
+		</clipPath>
+		<clipPath id="detached-window-clip">
+			<rect x="666" y="632" width="498" height="411" rx="26"/>
+		</clipPath>
+	</defs>
+	<g id="main-window">
+		<g clip-path="url(#main-window-clip)">
+			<rect x="187" y="218" width="881" height="660" fill="#242627"/>
+			<path d="M187 218H1068V332H187Z" fill="#3C4850"/>
+		</g>
+		<rect x="187" y="218" width="881" height="660" rx="27" stroke="#859EB2" stroke-width="9"/>
+		<g id="main-window-controls" stroke="#BED8E6" stroke-width="11" stroke-linecap="round" stroke-linejoin="round">
+			<path d="M771 280H814"/>
+			<path d="M870 256H912V300H870Z" stroke-linecap="butt" stroke-linejoin="miter"/>
+			<path d="M973 259L1011 298M1011 259L973 298"/>
+		</g>
+		<g id="main-properties">
+			<rect x="678" y="416" width="332" height="36" rx="18" fill="#38DDF4"/>
+			<rect x="678" y="493" width="92" height="92" rx="28" fill="#38DDF4"/>
+			<path d="M807 513H992M807 565H925" stroke="#F9FAFB" stroke-width="28" stroke-linecap="round"/>
+		</g>
+	</g>
+	<g id="magnifying-glass">
+		<path d="M319 737L272 784" stroke="#75A2C1" stroke-width="42"/>
+		<path d="M239 779C253 765 275 765 289 779L310 800C325 815 325 837 310 852L178 985C158 1005 125 1005 105 985C85 965 85 932 105 912Z" fill="#75A2C1"/>
+		<circle cx="444" cy="610" r="182.5" stroke="#75A2C1" stroke-width="45"/>
+		<path d="M335 597C348 548 389 510 442 506" stroke="#8A9BAB" stroke-width="37" stroke-linecap="round"/>
+	</g>
+	<g id="detached-window">
+		<g clip-path="url(#detached-window-clip)">
+			<rect x="666" y="632" width="498" height="411" fill="#242627"/>
+			<path d="M666 632H1164V728H666Z" fill="#3C4850"/>
+		</g>
+		<rect x="666" y="632" width="498" height="411" rx="26" stroke="#859EB2" stroke-width="9"/>
+		<g id="detached-window-controls" stroke="#BED8E6" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+			<path d="M936 683H969"/>
+			<path d="M1011 665H1042V699H1011Z" stroke-linecap="butt" stroke-linejoin="miter"/>
+			<path d="M1089 667L1118 696M1118 667L1089 696"/>
+		</g>
+		<g id="detached-properties">
+			<rect x="714" y="756" width="85" height="83" rx="26" fill="#38DDF4"/>
+			<rect x="714" y="863" width="85" height="83" rx="26" fill="#38DDF4"/>
+			<g stroke="#F9FAFB" stroke-width="26" stroke-linecap="round">
+				<path d="M842 778H1071M842 823H974"/>
+				<path d="M842 887H1033M842 932H968"/>
+			</g>
+			<path d="M728 986H1088" stroke="#8A9FAB" stroke-width="24" stroke-linecap="round"/>
+			<circle cx="1088" cy="986" r="25" fill="#8A9FAB"/>
+		</g>
+	</g>
+</svg>
