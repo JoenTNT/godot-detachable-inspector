@@ -16,9 +16,20 @@
 
 > Keep a scene node's Inspector open in a **separate native window** while selecting other nodes in Godot.
 
-| Preview | Window Merge |
-| :---: | :---: |
-| ![Demo 1](sample_projects\screenshots\preview.gif) | ![Demo 2](sample_projects\screenshots\window-merge.gif) |
+<p align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <img src="sample_projects/screenshots/preview.gif" width="100%" alt="Preview"><br>
+        <b>Preview</b>
+      </td>
+      <td align="center" width="50%">
+        <img src="sample_projects/screenshots/window-merge.gif" width="100%" alt="Window Merge"><br>
+        <b>Window Merge</b>
+      </td>
+    </tr>
+  </table>
+</p>
 
 <a id="requirements-and-installation"></a>
 
