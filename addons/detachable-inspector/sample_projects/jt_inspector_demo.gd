@@ -1,8 +1,19 @@
+# Detachable Inspector - Copyright (C) 2026 | JoenTNT
+# This program is free software: you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+# This program is distributed WITHOUT ANY WARRANTY; without even the implied
+# warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+# See <https://www.gnu.org/licenses/gpl-3.0.html> for the full license.
+
 @tool
+class_name JT_InspectorDemo
 extends Node2D
 
+# Local Enums.
 enum PreviewShape { RECTANGLE, CIRCLE }
 
+# Properties.
 @export var preview_enabled: bool = true:
 	set(value):
 		preview_enabled = value;

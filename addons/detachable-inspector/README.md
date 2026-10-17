@@ -1,8 +1,8 @@
 <h1 align="center">Godot Detached Inspector Plugin</h1>
 
-<div align="center">
-    <!-- Plugin icon: reserved for the owner-provided asset. -->
-</div>
+<p align="center">
+  <img src="../../icon.svg" width="150" />
+</p>
 
 <div align="center">
     <img src="https://img.shields.io/badge/version-0.1.0-green" alt="Version 0.1.0">
@@ -15,6 +15,10 @@
 ---
 
 > Keep a scene node's Inspector open in a **separate native window** while selecting other nodes in Godot.
+
+| Preview | Window Merge |
+| :---: | :---: |
+| ![Demo 1](sample_projects\screenshots\preview.gif) | ![Demo 2](sample_projects\screenshots\window-merge.gif) |
 
 <a id="requirements-and-installation"></a>
 
@@ -32,7 +36,7 @@ files, then re-enable it.
 
 ## QUICK DOCUMENTATION
 
-> Documentation updated **16 October 2026** for version **0.1.0**.
+> Documentation updated **17 October 2026** for version **0.1.0**.
 > Requires Godot **4.7+**; native UI and platform verification remain manual.
 
 <a id="open-a-window"></a>
@@ -42,6 +46,10 @@ files, then re-enable it.
 - Right-click a node → **Open in Detached Inspector** 
 - Select a node and use
 **Project → Tools → Open Detached Inspector**.
+
+<p align="center">
+  <img src="sample_projects\screenshots\detachable-window.png" width="90%" />
+</p>
 
 ---
 
