@@ -1,0 +1,11 @@
+* text=auto eol=lf
+
+/** export-ignore
+
+/addons !export-ignore
+
+/addons/detachable-inspector !export-ignore
+/addons/detachable-inspector/** !export-ignore
+
+/addons/detachable-inspector/sample_projects export-ignore
+/addons/detachable-inspector/sample_projects/** export-ignore
